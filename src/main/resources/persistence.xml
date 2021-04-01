@@ -20,7 +20,7 @@
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/FISH_TRADE_COMPANY?useSSL=false"/>
         <property name="username" value="root"/>
-        <property name="password" value="z00018308z"/>
+        <property name="password" value="****"/>
     </bean>
     <bean id="txManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory"/>
