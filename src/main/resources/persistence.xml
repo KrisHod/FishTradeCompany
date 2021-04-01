@@ -9,7 +9,7 @@
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
                 <prop key="show_sql">true</prop>
                 <prop key="format_sql">true</prop>
                 <prop key="use_sql_comments">true</prop>
@@ -18,7 +18,7 @@
     </bean>
     <bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp2.BasicDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/FISH_TRADE?useSSL=false"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/FISH_TRADE_COMPANY?useSSL=false"/>
         <property name="username" value="root"/>
         <property name="password" value="z00018308z"/>
     </bean>
