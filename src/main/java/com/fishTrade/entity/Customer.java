@@ -1,13 +1,11 @@
 package com.fishTrade.entity;
 
-
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
-import java.util.List;
+import java.util.Objects;
 
 @Entity
 public class Customer {
@@ -20,11 +18,7 @@ public class Customer {
     private String email;
     private String phoneNumber;
 
-
-    //TODO @
-  //  private List<Order> orders;
-
-    public Customer(){
+    public Customer() {
     }
 
     public int getId() {
@@ -73,5 +67,30 @@ public class Customer {
 
     public void setDoB(Date doB) {
         this.doB = doB;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return id == customer.id && Objects.equals(name, customer.name) && Objects.equals(doB, customer.doB) && Objects.equals(address, customer.address) && Objects.equals(email, customer.email) && Objects.equals(phoneNumber, customer.phoneNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, doB, address, email, phoneNumber);
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", doB=" + doB +
+                ", address='" + address + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
     }
 }

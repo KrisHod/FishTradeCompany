@@ -1,10 +1,8 @@
 package com.fishTrade.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
+import java.util.List;
 
 @Entity
 public class Order {
@@ -14,7 +12,11 @@ public class Order {
     private java.sql.Date ordered;
     private java.sql.Date shipped;
     private OrderStatus orderStatus;
+    @ManyToOne
+    @JoinColumn(name = "customerId")
     private Customer customer;
+
+List<FishParcel> fishParcelList;
 
     public Order() {
 
