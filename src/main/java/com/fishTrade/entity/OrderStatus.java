@@ -1,5 +1,5 @@
 package com.fishTrade.entity;
 
 public enum OrderStatus {
-    NEW, PENDING, SHIPPED, DELIVERED;
+    NEW, PENDING, AVAILABLE_FOR_SHIPMENT, SHIPPED, DELIVERED;
 }
