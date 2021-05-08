@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Objects;
 
 @Entity
 public class Fish {
@@ -11,11 +12,7 @@ public class Fish {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    private double weight;
-    private double price;
     private String description;
-    private boolean isRegistered;
-    private boolean isWrittenOff;
 
     public Fish() {
     }
@@ -36,22 +33,6 @@ public class Fish {
         this.name = name;
     }
 
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -60,19 +41,25 @@ public class Fish {
         this.description = description;
     }
 
-    public boolean isRegistered() {
-        return isRegistered;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Fish fish = (Fish) o;
+        return id == fish.id && Objects.equals(name, fish.name) && Objects.equals(description, fish.description);
     }
 
-    public void setRegistered(boolean registered) {
-        isRegistered = registered;
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, description);
     }
 
-    public boolean isWrittenOff() {
-        return isWrittenOff;
-    }
-
-    public void setWrittenOff(boolean writtenOff) {
-        isWrittenOff = writtenOff;
+    @Override
+    public String toString() {
+        return "Fish{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 }
