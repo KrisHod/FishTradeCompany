@@ -47,7 +47,15 @@ public class CustomerController {
         }
     }
 
-   
+    @PostMapping("/")
+    public ResponseEntity<Customer> addNewCustomer(@RequestBody Customer customer) {
+        try {
+            customerService.save(customer);
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 
 
 }
