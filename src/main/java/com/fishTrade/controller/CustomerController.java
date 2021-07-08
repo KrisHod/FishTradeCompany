@@ -57,5 +57,24 @@ public class CustomerController {
         }
     }
 
+    @PatchMapping("/{id}")
+    public ResponseEntity<Customer> updateCustomer(@PathVariable int id,
+                                                   @RequestBody CustomerDTO customerDtoDetails) {
+        try {
+            Customer customerDetails = modelMapper.map(customerDtoDetails, Customer.class);
+            return new ResponseEntity<>(customerService.updateCustomer(id, customerDetails), HttpStatus.OK);
+        } catch (ResourceNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Map<String, Boolean>> deleteCustomer(@PathVariable int id) {
+        try {
+            return new ResponseEntity<>(customerService.deleteCustomer(id), HttpStatus.OK);
+        } catch (ResourceNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
 }
