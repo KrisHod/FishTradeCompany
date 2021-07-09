@@ -1,24 +1,55 @@
 package com.fishTrade.service;
 
 import com.fishTrade.entity.Customer;
+import com.fishTrade.exception.ResourceNotFoundException;
 import com.fishTrade.repository.ICustomerRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-public class CustomerService implements ICustomerService{
-    @Autowired
-    private ICustomerRepository customerRepository;
+@Service
+@AllArgsConstructor
+public class CustomerService implements ICustomerService {
+
+    private final ICustomerRepository customerRepository;
 
     @Override
-    public Optional<Customer> findById (long id){
-        return customerRepository.findById(id);
+    public List<Customer> findAll() {
+        return customerRepository.findAll();
     }
 
-    @Transactional
     @Override
-    public void save (Customer cus){
+    public Customer findById(int id) {
+        return customerRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Customer doesn't exist with id: " + id));
+    }
+
+    @Override
+    public void save(Customer cus) {
         customerRepository.save(cus);
+    }
+
+    @Override
+    public Customer updateCustomer(int id, Customer customerDetails) {
+        Customer customer = findById(id);
+        customer.setName(customerDetails.getName());
+        customer.setDoB(customerDetails.getDoB());
+        customer.setAddress(customer.getAddress());
+        customer.setEmail(customerDetails.getEmail());
+        customer.setPhoneNumber(customer.getPhoneNumber());
+        return customer;
+    }
+
+    @Override
+    public Map<String, Boolean> deleteCustomer(int id) {
+        Map<String, Boolean> response = new HashMap<>();
+        Customer customer = findById(id);
+        customerRepository.delete(customer);
+        response.put("Deleted", Boolean.TRUE);
+        return response;
     }
 }

@@ -1,3 +1,289 @@
-11:05:24.872 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-11:05:25.330 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-11:05:26.839 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+10:35:13.832 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 13356 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+10:35:13.852 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+10:35:14.059 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:35:14.061 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:35:17.470 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:35:17.786 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 284 ms. Found 5 JPA repository interfaces.
+10:35:21.274 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:35:21.305 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:35:21.305 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:35:21.305 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+10:35:21.712 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:35:21.712 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7650 ms
+10:35:23.443 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:35:24.011 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+10:35:24.549 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:35:24.971 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:35:26.252 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:35:26.346 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10:35:29.080 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:35:29.112 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:35:29.191 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:35:29.749 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:35:29.760 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:35:29.892 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:35:29.897 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:35:29.923 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:38:46.195 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 12792 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+10:38:46.195 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+10:38:46.273 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:38:46.273 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:38:47.405 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:38:47.499 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+10:38:48.385 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:38:48.401 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:38:48.401 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:38:48.401 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+10:38:48.542 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:38:48.542 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2269 ms
+10:38:48.935 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:38:48.997 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+10:38:49.185 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:38:49.310 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:38:49.731 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:38:49.763 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10:38:51.154 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:38:51.170 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:38:51.186 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:38:51.795 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:38:52.171 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+10:38:52.202 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:38:52.233 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:38:52.233 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 7.269 seconds (JVM running for 9.381)
+10:43:50.393 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:43:50.399 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:43:50.484 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 84 ms
+11:11:14.202 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 8016 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:11:14.217 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:11:14.358 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:11:14.358 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:11:16.415 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:11:16.509 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 5 JPA repository interfaces.
+11:11:17.290 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:11:17.306 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:11:17.306 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:11:17.306 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:11:17.431 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:11:17.431 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3073 ms
+11:11:17.837 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:11:17.915 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:11:18.165 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:11:18.337 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:11:18.884 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:11:18.915 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:11:20.103 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:11:20.119 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:11:20.134 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:11:21.262 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:11:21.943 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:11:21.990 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:11:22.037 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:11:22.052 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 9.135 seconds (JVM running for 11.542)
+11:11:40.843 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:11:40.844 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:11:40.848 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+11:14:36.494 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 15976 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:14:36.497 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:14:36.551 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:14:36.552 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:14:37.632 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:14:37.710 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+11:14:38.495 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:14:38.511 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:14:38.511 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:14:38.511 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:14:38.620 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:14:38.620 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2068 ms
+11:14:38.996 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:14:39.089 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:14:39.277 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:14:39.384 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:14:40.564 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:14:40.595 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:14:41.562 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:14:41.570 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:14:41.582 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:14:42.176 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:14:42.567 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:14:42.594 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:14:42.619 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:14:42.633 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 6.632 seconds (JVM running for 7.537)
+11:14:50.475 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:14:50.476 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:14:50.477 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:17:15.369 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 2608 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:17:15.381 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:17:15.506 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:17:15.506 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:17:18.034 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:17:18.268 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 203 ms. Found 5 JPA repository interfaces.
+11:17:20.929 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:17:20.965 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:17:20.967 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:17:20.970 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:17:21.314 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:17:21.314 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5808 ms
+11:17:22.369 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:17:22.614 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:17:23.655 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:17:24.278 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:17:25.792 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:17:25.938 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:17:28.383 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:17:28.412 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:17:28.504 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:17:30.195 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:17:31.304 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:17:31.381 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:17:31.464 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:17:31.486 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 17.605 seconds (JVM running for 23.77)
+11:17:38.034 CUSTOM_PATTERN [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:17:38.035 CUSTOM_PATTERN [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:17:38.036 CUSTOM_PATTERN [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:31:00.436 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 5968 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:31:00.453 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:31:00.693 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:31:00.694 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:31:03.375 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:31:03.549 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 5 JPA repository interfaces.
+11:31:05.668 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:31:05.704 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:31:05.705 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:31:05.705 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:31:05.966 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:31:05.966 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5271 ms
+11:31:06.839 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:31:07.004 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:31:09.562 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:31:09.904 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:31:10.928 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:31:11.009 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:31:13.900 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:31:13.929 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:31:14.012 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:31:15.313 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:31:16.187 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:31:16.272 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:31:16.324 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:31:16.458 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 17.121 seconds (JVM running for 20.173)
+11:31:20.453 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:31:20.454 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:31:20.457 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+11:41:42.389 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 16564 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:41:42.389 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:41:42.452 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:41:42.452 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:41:43.630 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:41:43.724 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 5 JPA repository interfaces.
+11:41:44.830 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:41:44.846 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:41:44.846 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:41:44.846 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:41:44.987 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:41:44.987 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2535 ms
+11:41:45.458 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:41:45.610 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:41:45.939 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:41:46.084 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:41:46.526 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:41:46.557 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:41:47.745 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:41:47.760 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:41:47.776 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:41:48.432 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:41:48.870 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:41:48.917 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:41:48.948 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:41:48.964 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 7.142 seconds (JVM running for 8.001)
+11:42:53.224 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:42:53.231 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:42:53.276 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 45 ms
+11:50:11.577 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 12420 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:50:11.718 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:50:11.827 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:50:11.827 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:50:14.719 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:50:14.973 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 226 ms. Found 5 JPA repository interfaces.
+11:50:17.588 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:50:17.648 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:50:17.653 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:50:17.654 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:50:18.082 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:50:18.082 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6239 ms
+11:50:19.295 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:50:19.451 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:50:20.295 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:50:20.964 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:50:22.185 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:50:22.296 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:50:25.061 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:50:25.092 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:50:25.182 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:50:26.463 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:50:27.296 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:50:27.407 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:50:27.448 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:50:27.730 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 17.25 seconds (JVM running for 20.142)
+11:50:37.282 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:50:37.283 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:50:37.293 CUSTOM_PATTERN [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+11:52:38.049 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 5324 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+11:52:38.054 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+11:52:38.172 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:52:38.172 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:52:41.594 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:52:41.806 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 181 ms. Found 5 JPA repository interfaces.
+11:52:45.179 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:52:45.210 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:52:45.210 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:52:45.210 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+11:52:45.987 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:52:45.987 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7815 ms
+11:52:47.612 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:52:47.925 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+11:52:48.413 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:52:48.726 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:52:49.679 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:52:49.773 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:52:52.805 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:52:52.836 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:52:52.954 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:54.838 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:52:56.070 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+11:52:56.165 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:52:56.233 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:52:56.405 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 19.656 seconds (JVM running for 21.742)
+11:53:13.506 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:53:13.508 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:53:13.517 CUSTOM_PATTERN [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+12:09:27.538 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Starting Application using Java 11.0.10 on ZVERDVD-DHOJIPT with PID 15688 (C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany\target\classes started by Zver in C:\Users\Zver\Desktop\Kris\Go2It\FishTradeCompany)
+12:09:27.543 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - No active profile set, falling back to default profiles: default
+12:09:27.629 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:09:27.629 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:09:29.377 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:09:29.467 CUSTOM_PATTERN [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+12:09:30.385 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:09:30.400 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:09:30.400 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:09:30.400 CUSTOM_PATTERN [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+12:09:30.499 CUSTOM_PATTERN [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:09:30.499 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2870 ms
+12:09:30.973 CUSTOM_PATTERN [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:09:31.068 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+12:09:31.498 CUSTOM_PATTERN [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:09:31.779 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:09:32.476 CUSTOM_PATTERN [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:09:32.517 CUSTOM_PATTERN [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12:09:33.657 CUSTOM_PATTERN [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:09:33.670 CUSTOM_PATTERN [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:09:33.688 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:09:34.389 CUSTOM_PATTERN [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:09:34.827 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+12:09:34.858 CUSTOM_PATTERN [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:09:34.896 CUSTOM_PATTERN [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:09:34.914 CUSTOM_PATTERN [restartedMain] INFO  com.fishTrade.Application - Started Application in 8.079 seconds (JVM running for 9.589)
+12:09:49.305 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:09:49.305 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:09:49.308 CUSTOM_PATTERN [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms

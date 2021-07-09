@@ -1,5 +1,7 @@
 package com.fishTrade.entity;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -8,6 +10,7 @@ import java.sql.Date;
 import java.util.Objects;
 
 @Entity
+@Data
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,6 +22,14 @@ public class Customer {
     private String phoneNumber;
 
     public Customer() {
+    }
+
+    public Customer(String name, Date doB, String address, String email, String phoneNumber) {
+        this.name = name;
+        this.doB = doB;
+        this.address = address;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public int getId() {

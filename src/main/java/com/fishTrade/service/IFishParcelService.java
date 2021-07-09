@@ -1,2 +1,4 @@
-package com.fishTrade.service;public interface IFishParcelRepository {
+package com.fishTrade.service;
+
+public interface IFishParcelService {
 }
