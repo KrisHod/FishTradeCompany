@@ -33,5 +33,26 @@ public class EmployeeController {
         }
     }
 
+    @GetMapping("/")
+    public ResponseEntity<List<EmployeeDTO>> getAll() {
+        try {
+            List<EmployeeDTO> employeeDTOs = employeeService.findAll()
+                    .stream()
+                    .map(x -> modelMapper.map(x, EmployeeDTO.class))
+                    .collect(Collectors.toList());
+            return new ResponseEntity<>(employeeDTOs, HttpStatus.OK);
+        } catch (ResourceNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<EmployeeDTO> findById(@PathVariable int id) {
+        try {
+            EmployeeDTO employeeDTO = modelMapper.map(employeeService.findById(id), EmployeeDTO.class);
+            return new ResponseEntity<>(employeeDTO, HttpStatus.OK);
+        } catch (ResourceNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 }
