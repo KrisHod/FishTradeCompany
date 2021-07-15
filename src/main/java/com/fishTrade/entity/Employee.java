@@ -1,9 +1,12 @@
 package com.fishTrade.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
+@Data
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
