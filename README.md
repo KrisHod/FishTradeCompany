@@ -1,10 +1,10 @@
 ﻿# FishTradeCompany
 
-It is a full-stack application that allows customers to place orders and managers are able to administer the orders, employees, and payments.
+Web application that allows customers to place orders and managers to administer the orders, employees, and payments depending on their position.
 
-●	Achieved scalability by implementing REST API architecture
+●	Project implements REST API best practices
 
-●	Inversion of Control and Dependency Injection reduces features implementation time
+●	Inversion of Control and Dependency Injection provide loose coupling and easy maintenance
 
 ●	Every application component is compliant with SOLID principles
 

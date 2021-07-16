@@ -4,8 +4,5 @@ import com.fishTrade.entity.CustomerOrder;
 
 import java.util.Optional;
 
-public interface ICustomerOrderService {
-    Optional<CustomerOrder> findById(long id);
+public interface ICustomerOrderService { }
 
-    void save(CustomerOrder order);
-}
