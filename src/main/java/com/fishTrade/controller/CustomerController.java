@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
@@ -37,7 +36,7 @@ public class CustomerController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<CustomerDTO> getCustomerById(@PathVariable int id) {
+    public ResponseEntity<CustomerDTO> getById(@PathVariable int id) {
         try {
             Customer customer = customerService.findById(id);
             CustomerDTO customerDTO = modelMapper.map(customer, CustomerDTO.class);
@@ -48,7 +47,7 @@ public class CustomerController {
     }
 
     @PostMapping("/")
-    public ResponseEntity<Customer> addNewCustomer(@RequestBody Customer customer) {
+    public ResponseEntity<Customer> add(@RequestBody Customer customer) {
         try {
             customerService.save(customer);
             return new ResponseEntity<>(HttpStatus.OK);
@@ -58,20 +57,20 @@ public class CustomerController {
     }
 
     @PatchMapping("/{id}")
-    public ResponseEntity<Customer> updateCustomer(@PathVariable int id,
-                                                   @RequestBody CustomerDTO customerDtoDetails) {
+    public ResponseEntity<Customer> update(@PathVariable int id,
+                                           @RequestBody CustomerDTO customerDtoDetails) {
         try {
             Customer customerDetails = modelMapper.map(customerDtoDetails, Customer.class);
-            return new ResponseEntity<>(customerService.updateCustomer(id, customerDetails), HttpStatus.OK);
+            return new ResponseEntity<>(customerService.update(id, customerDetails), HttpStatus.OK);
         } catch (ResourceNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Map<String, Boolean>> deleteCustomer(@PathVariable int id) {
+    public ResponseEntity<String> delete(@PathVariable int id) {
         try {
-            return new ResponseEntity<>(customerService.deleteCustomer(id), HttpStatus.OK);
+            return new ResponseEntity<>(customerService.delete(id), HttpStatus.OK);
         } catch (ResourceNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }

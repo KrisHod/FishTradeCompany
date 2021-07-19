@@ -12,7 +12,7 @@ public interface ICustomerService {
 
     void save(Customer cus);
 
-    Customer updateCustomer(int id, Customer customerDetails);
+    Customer update(int id, Customer customerDetails);
 
-    public Map<String, Boolean> deleteCustomer(int id);
+    public String delete(int id);
 }

@@ -4,12 +4,9 @@ import com.fishTrade.entity.Customer;
 import com.fishTrade.exception.ResourceNotFoundException;
 import com.fishTrade.repository.ICustomerRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Service
 @AllArgsConstructor
@@ -34,7 +31,7 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public Customer updateCustomer(int id, Customer customerDetails) {
+    public Customer update(int id, Customer customerDetails) {
         Customer customer = findById(id);
         customer.setName(customerDetails.getName());
         customer.setDoB(customerDetails.getDoB());
@@ -45,11 +42,9 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public Map<String, Boolean> deleteCustomer(int id) {
-        Map<String, Boolean> response = new HashMap<>();
+    public String delete(int id) {
         Customer customer = findById(id);
         customerRepository.delete(customer);
-        response.put("Deleted", Boolean.TRUE);
-        return response;
+        return "Customer with id: " + id + " was deleted.";
     }
 }
